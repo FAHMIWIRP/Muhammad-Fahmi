@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Moana Sans';
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+nav {
+    border-bottom: gray 1px solid;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    height: 60vh;
+}
+
+.item {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.item p {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.item ul {
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.item ul li a {
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.tombol {
+    background-color: black;
+    border: white 1px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.box img {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.about {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.about ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    list-style: none;
+    align-items: start;
+}
+
+.about ul li p {
+    color: grey;
+}
+
+.about ul a {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
